@@ -1,0 +1,21 @@
+#İLK SORU
+
+yatırım=1000 
+for a in range(1,8):
+    yatırım=yatırım+(yatırım*0.12)
+    print (yatırım) 
+    
+    
+#İKİNCİ SORU
+    
+bitcoin=1000
+yüzde="%12"
+kazanç=1210.68
+print("""Hafta başında {} dolarlık bitcoin aldığımızda günde ortalama 
+{} kazançla, bir hafta sonunda {} dolar kazanırdık""".format(bitcoin,yüzde,kazanç))
+
+
+#ÜÇÜNCÜ SORU
+
+dosya_adi=input("Dosya adını giriniz :")
+print(dosya_adi+".py")
